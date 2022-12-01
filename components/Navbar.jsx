@@ -1,14 +1,14 @@
 import Link from "next/link";
 import Image from "next/image";
 import React, { useState } from "react";
-import Logo from "./Logo";
+// import Logo from "./Logo";
 import NavItem from "./NavItem";
-import logo from '../public/images/logo.jpg'
+// import logo from '../public/images/logo.jpg'
 
 const MENU_LIST = [
-  { text: "Inicio", href: "/" },
-  { text: "Acerca de nosotros", href: "/about" },
-  { text: "Contacto", href: "/contact" },
+  // { text: "Main", href: "/" },
+  { text: "Buy", href: "/buyHomes" },
+  { text: "Rent", href: "/rentHomes" },
 ];
 const Navbar = () => {
   const [navActive, setNavActive] = useState(null);
@@ -20,7 +20,7 @@ const Navbar = () => {
         <Link href={"/"}>
 
         <div className="image"></div>
-        <Image
+        {/* <Image
         src={logo}
         alt="Picture of the author"
         width={90} 
@@ -28,11 +28,11 @@ const Navbar = () => {
         
         // blurDataURL="data:..." automatically provided
         // placeholder="blur" // Optional blur-up while loading
-      />
+      /> */}
             
           
         </Link>
-        <h1 className="logo">Orma Logitic</h1>
+        <h1 className="logo">Tuluminati X</h1>
         
         <div
           onClick={() => setNavActive(!navActive)}
