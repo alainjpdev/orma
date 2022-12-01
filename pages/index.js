@@ -10,8 +10,8 @@ export default function Home() {
       <Image
         src={mainImage}
         alt="Picture of the author"
-        width="200px" 
-        height="80%"
+        width="100vh" 
+        height="100vh"
         
         // blurDataURL="data:..." automatically provided
         // placeholder="blur" // Optional blur-up while loading
