@@ -1,6 +1,7 @@
 import Navbar from "../components/Navbar";
 import Image from "next/image";
 import mainImage from '../public/images/1.jpg'
+import MapView from "../components/MapView";
 
 
 export default function Home() {
@@ -10,12 +11,14 @@ export default function Home() {
         src={mainImage}
         alt="Picture of the author"
         width="200px" 
-        height="100%"
-        opacity="0.5"
+        height="80%"
+        
         // blurDataURL="data:..." automatically provided
         // placeholder="blur" // Optional blur-up while loading
-      />
-      <h2>Home Page</h2>
+      /> 
+      {/* <h2>Home Page</h2> */}
+       <MapView/>
+      
     </div>
   );
 }
