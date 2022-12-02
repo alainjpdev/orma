@@ -17,7 +17,7 @@ const [viewport, setViewport] = useState({
   return (
       <ReactMapGL {...viewport} 
       maxZoom={12}
-       mapboxAccessToken={"pk.eyJ1IjoiaWFta2FydGhpY2siLCJhIjoiY2t4b3AwNjZ0MGtkczJub2VqMDZ6OWNrYSJ9.-FMKkHQHvHUeDEvxz2RJWQ"}
+       mapboxAccessToken={"pk.eyJ1IjoiYXJrMjc4NCIsImEiOiJjbGE5bzJrMWYwMDlmM29ybzVrZjRsZ3B6In0.oei-xYZayuQ2pZniotD0ow"}
        >map
         </ReactMapGL>
 

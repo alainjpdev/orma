@@ -4,9 +4,7 @@ const NavItem = ({ text, href, active }) => {
     <Link href={href}  className={`nav__item ${
       active ? "active" : ""
     }`}>
-     
        
-    
         {text}
      
     </Link>
