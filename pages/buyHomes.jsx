@@ -5,13 +5,14 @@ import Navbar from "../components/Navbar";
 const buyHomes = () => {
   return (
     <>
-    <MapView/>
+     <MapView/>
     <div className="center">
      
-     
+  
      
       <h2>buyHomes</h2>
     </div>
+  
     </>
   );
 };
